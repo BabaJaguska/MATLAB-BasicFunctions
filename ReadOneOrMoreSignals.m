@@ -1,4 +1,4 @@
-function [data, noFiles]=ReadOneOrMoreSignals()
+function [data, noFiles, filenames]=ReadOneOrMoreSignals()
 %%%% Reads one or more *.csv files
 %%%% Made primarily for EMG data recorded by bonestim/maxens hybrid stimulators
 %%%% but can work for other data too
